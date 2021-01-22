@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.google.com/specimen/Kumbh+Sans">
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>  
+  <img class="top" src="./images/bg-pattern-top.svg" alt="">
+  <div class="container">
+    <p class="name">
+      Victor Crest
+      26
+    </p>
+    <p class="place">
+      London
+    </p>
+  <img class="banner" src="./images/bg-pattern-card.svg" alt="victor image">
+  <img class="image" src="./images/image-victor.jpg" alt="victor image">
+  <div class="circle"></div>
+  <div class="group">
+  <table>
+    <tr>
+      <th>80K</th>
+      <th>803K</th>
+      <th>1.4K</th>
+    </tr>
+    <tr>
+      <td>Followers</td>
+      <td>Likes</td>
+      <td>Photos</td>
+    </tr>
+  </table>
+</div>
+</div>
+<div>
+  <img class="bottom" src="./images/bg-pattern-bottom.svg" alt="">
+</div>  
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".container"), {
+		max: 25,
+		speed: 400
+	});
+</script>
+<!-- <footer> -->
+  <!-- <div class="attribution"> -->
+    <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+    <!-- Coded by <a href="#">Webkingcoder</a>. -->
+  <!-- </div> -->
+<!-- </footer> -->
+</body>
+</html>
